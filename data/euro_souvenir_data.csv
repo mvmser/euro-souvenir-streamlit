@@ -1,0 +1,95 @@
+#,TITRE,CODE,MILESIME,PAYS,VILLE,LIEU,ADRESSE,Mode de vente,TYPE DE LIEU,COMMENTAIRE,PRIX INDICATIF (€),DATE,IMAGE,LATITUDE,LONGITUDE
+UEBU_2025-6,TOUR EIFFEL,UEBU,2025-6,France,PARIS,Tour Eiffel,"Av. Gustave Eiffel, 75007 Paris",Libre service,Monument,Disponible au RDC après la sécurité - Pas de billet obligatoire,,19/07/2025,,48.857298,2.302035
+UEAS_2025-2,OPÉRA GARNIER,UEAS,2025-2,France,PARIS,Opéra Garnier,"Pl. de l'Opéra, 75009 Paris",Distributeur CB,Monument,"Disponible à la boutique souvenir, entrée libre.",,19/07/2025,,48.875676,2.343131
+UEAE_2024-7,TOUR MONTPARNASSE,UEAE,2024-7,France,PARIS,Tour Montparnasse - La boutique de souvenirs,"33 Av. du Maine, 75015 Paris",Libre service,Monument,La boutique se situe en haut de la tour - Pas de ticket ou de reservation obligatoire.,,19/07/2025,,48.842878,2.295042
+UEAE_2025-6,PARIS MONTPARNASSE,UEAE,2025-6,France,PARIS,Tour Montparnasse - La boutique de souvenirs,"33 Av. du Maine, 75015 Paris",Libre service,Monument,La boutique se situe en haut de la tour - Pas de ticket ou de reservation obligatoire.,,19/07/2025,,48.842878,2.295042
+UELF_2024-1,MUSEE NATIONAL DE LA MARINE,UELF,2024-1,France,PARIS,Musée National de la Marine - Boutique,"17 Pl. du Trocadéro et du 11 Novembre, 75116 Paris",Libre service,Monument,"Boutique au fond du musée, accessible en entrée libre.",,19/07/2025,,48.862207,2.287343
+UESD_2025-1,BALLON GENERALI PARIS,UESD,2025-1,France,PARIS,Parc André Citroën,"2 Rue Cauchy, 75015 Paris",Libre service,Autre,,,,,48.842878,2.295042
+UEML_2025-4,MUSEE GREVIN - PARIS,UEML,2025-4,France,PARIS,Musée Grévin,"10 Bd Montmartre, 75009 Paris",Libre service,Musée,"Boutique du musée, accessible via le Passage Jouffroy.",,19/07/2025,,48.875676,2.343131
+UEBR_2024-9,PARC ZOOLOGIQUE DE PARIS,UEBR,2024-9,France,PARIS,Parc zoologique de Paris,"Av. Daumesnil, 75012 Paris",,Autre,,,,,48.849741,2.376987
+UEAV_2025-7,MUSEE DE L'ARMEE - PARIS,UEAV,2025-7,France,PARIS,Hôtel National des Invalides,"129 Rue de Grenelle, 75007 Paris",Distributeur espèces,Monument,Distributeur automatique dans la billeterie - Pas de ticket obligatoire.,,,,48.857298,2.302035
+UEAV_2025-1,NAPOLÉON 1ER,UEAV,2025-1,France,PARIS,Dôme des invalides,"129 Rue de Grenelle, 75007 Paris",Distributeur espèces,Monument,,,,,48.857298,2.302035
+UEAV_2025-4,NAPOLÉON BONAPARTE,UEAV,2025-4,France,PARIS,Dôme des invalides,"129 Rue de Grenelle, 75007 Paris",Distributeur espèces,Monument,,,,,48.857298,2.302035
+UECW_2025-7,LES CATACOMBES DE PARIS,UECW,2025-7,France,PARIS,Boutique des catacombes de Paris,21Bis Avenue René Coty,Libre service,Boutique souvenirs,,,19/07/2025,,48.828918,2.334549
+UEMY_2024-3,VEDETTES DE PARIS,UEMY,2024-3,France,PARIS,Vedettes de Paris,"2 Port de Suffren, 75007 Paris",,Autre,Sur le bateau - Cash only,,19/07/2025,,48.857298,2.302035
+UETE_2024-1,LA COMPAGNIE DES BATEAUX-MOUCHES,UETE,2024-1,France,PARIS,Bateaux-Mouches,"Pont de l'Alma, Port de la Conférence, 75008 Paris",,Autre,Espèces uniquement - Distributeur automatique,,,,51.491676,6.296065
+UEZT_2025-8,LA POSTE - SALON PHILATELIQUE DE PRINTEMPS 2025,UEZT,2025-8,France,PARIS,Le Carré d’Encre,"13bis Rue des Mathurins, 75009 Paris",Libre service,Boutique souvenirs,"Au fond de la boutique, caisses Philatélique",,19/07/2025,,48.873194,2.325996
+UEZT_2024-6,LA POSTE - PARIS-PHILEX 2024 - ARMOIRIES DE PARIS,UEZT,2024-6,France,PARIS,Le Carré d’Encre,"13bis Rue des Mathurins, 75009 Paris",Libre service,Boutique souvenirs,"Au fond de la boutique, caisses Philatélique",,19/07/2025,,48.873194,2.325996
+UEBG_2025-3,LE PANTHÉON - PARIS,UEBG,2025-3,France,PARIS,Panthéon ,"Pl. du Panthéon, 75005 Paris",Libre service,Monument,Boutique souvenir,,,,48.850842,2.345515
+UEBE_2025-2,ARC DE TRIOMPHE - PARIS,UEBE,2025-2,France,PARIS,Arc de triomphe ,"Pl. Charles de Gaulle, 75008 Paris",Distributeur espèces,Monument,"Disponible à la boutique souvenir, mais besoin d'un ticket pour y accéder, distributeur automatique nécessitant de l'espèce",,,,48.87284,2.310733
+UEJL_2024-1,CITÉ DES SCIENCES ET DE L'INDUSTRIE,UEJL,2024-1,France,PARIS,Cité des sciences et de l'industrie,"30 Av. Corentin Cariou, 75019 Paris",Distributeur espèces,Musée,,,,,48.895752,2.387976
+UELX_2024-2,PARISÎLE DE LA CITÉ,UELX,2024-2,France,PARIS,Signé France - Boutique,"4 Quai du Marché Neuf - Maurice Grimaud, 75004 Paris",Distributeur CB,Boutique souvenirs,Distributeur automatique devant la boutique,,,,48.854186,2.345678
+UEGA_2025-1,LA SAINTE-CHAPELLE - PARIS,UEGA,2025-1,France,PARIS,Conciergerie,"2 Bd du Palais, 75001 Paris",,Monument,,,,,48.861834,2.34442
+UEFZ_2025-1,LA CONCIERGERIE - PARIS,UEFZ,2025-1,France,PARIS,Conciergerie,"2 Bd du Palais, 75001 Paris",,Monument,,,,,48.861834,2.34442
+UENS_2025-2,LILLE - VIEUX-LILLE,UENS,2025-2,France,LILLE,Office de Tourisme Métropolitain de Lille,"Palais Rihour, Pl. Rihour, 59000 Lille",Distributeur CB,Office de Tourisme,,,,,50.635796,3.062408
+REAA_2024-1,PONT ADOLPHE - LUXEMBOURG,REAA,2024-1,Luxembourg,LUXEMBOURG-VILLE,,"13 Rue Chimay, 1333 Ville-Haute Luxembourg",,Bureau tabac,,,22/06/2025,,49.610439,6.129737
+UEET_2022-3,LA ROCHELLEL'HÔTEL DE VILLE,UEET,2022-3,France,LA ROCHELLE,,"1 Rue Chef de ville, 17000 La Rochelle",Caisse,Bureau tabac,Disponible à la caisse du bureau de tabac,,,,46.158357,-1.153901
+UEFT_2023-3,CATHÉDRALE DE STRASBOURG,UEFT,2023-3,France,STRASBOURG,Office eurométropolitain de tourisme de Strasbourg,"17 Pl. de la Cathédrale, 67082 Strasbourg",,Boutique souvenirs,,,,,48.58197,7.749952
+UEPV_2023-1,CATHÉDRALE NOTRE-DAME DE STRASBOURG,UEPV,2023-1,France,STRASBOURG,Office eurométropolitain de tourisme de Strasbourg,"17 Pl. de la Cathédrale, 67082 Strasbourg",,Office de Tourisme,,,,,48.58197,7.749952
+UEPV_2022-2,CATHÉDRALE NOTRE-DAME DE STRASBOURG,UEPV,2022-2,France,STRASBOURG,Office eurométropolitain de tourisme de Strasbourg,"17 Pl. de la Cathédrale, 67082 Strasbourg",,Office de Tourisme,,,,,48.58197,7.749952
+UEAX_2024-5,ARÈNES DE NÎMES,UEAX,2024-5,France,NÎMES,Arènes de Nîmes,"Bd des Arènes, 30000 Nîmes",Libre service,Monument,,,,,43.834871,4.359593
+UEEJ_2024-2,MAISON CARRÉE DE NÎMES,UEEJ,2024-2,France,NÎMES,,,,,,,,,43.834871,4.359593
+UEHL_2024-3,TOUR MAGNE - NIMES,UEHL,2024-3,France,NÎMES,,,,,,,,,43.834871,4.359593
+UEWD_2022-3,LE MONT SAINT-MICHEL,UEWD,2022-3,France,MONT SAINT-MICHEL,,,,,,,,,48.63668,-1.510603
+UEFA_2018-2,LES FÊTES DE SAINT-NICOLAS À NANCY,UEFA,2018-2,France,NANCY,Destination Nancy - Office de Tourisme Métropolitain,"Office de Tourisme, 1 Pl. Stanislas, 54000 Nancy",Libre service,Office de Tourisme,,,,,48.694298,6.181829
+UEFA_2017-3,NANCY ART NOUVEAU,UEFA,2017-3,France,NANCY,Les Vitrines de Nancy,"Pl. André Maginot, 54000 Nancy",Libre service,Boutique souvenirs,,,,,48.694298,6.181829
+UEVR_2021-1,DOUAI - CITE DES GEANTS,UEVR,2021-1,France,DOUAI,,,,,,,,,50.36784,3.081848
+UEKY_2018-1,DUNKERQUEJEAN BART,UEKY,2018-1,France,DUNKERQUE,"Office de Tourisme et des Congrès Communautaire, accueil de Dunkerque","Le Beffroi, Rue de l'Amiral Ronarc'h, 59140 Dunkerque",,,,,,,43.613459,-0.301761
+UEJW_2021-4,FALAISE D'ÉTRETAT - CÔTE D'ALBÂTRE,UEJW,2021-4,France,ETRETAT,Marché couvert d'Étretat,"16 Pl. Maréchal Foch, 76790 Étretat",,,,,,,49.707832,0.204112
+XELV_2025-3,MERCEDES-BENZ MUSEUM - STUTTGART,XELV,2025-3,Allemagne,STUTTGART,,,,,,,,,48.77353,9.17742
+XEJN_2024-1,SWR FERNSEHTURM STUTTGARTDER ERSTE DER WELT - SEIT 1956,XEJN,2024-1,Allemagne,STUTTGART,,,,,,,,,48.77353,9.17742
+XEJE_2025-7,KÖLN - DIE STADT AM RHEIN,XEJE,2025-7,Allemagne,KÖLN,,"Komödienstraße 7, 50667 Köln, Allemagne",,Boutique souvenirs,,"4,00 €",28/12/2025,,50.941595,6.955766
+NELN_2025-2,HUNDERTWASSERHAUS WIEN,NELN,2025-2,Autriche,WIEN,Hundertwasser Village,,,Monument,Boutique au fond du Hundertwasser Village,"4,00 €",28/12/2025,,48.180734,16.081672
+NEAA_2025-1,KUNSTHAUSWIEN,NEAA,2025-1,Autriche,WIEN,KunstHausWien,,,Monument,Boutique souvenir du KunstHausWien musée,"2,00 €",28/12/2025,,48.180734,16.081672
+EEAB_2025-2,BRATISLAVA,EEAB,2025-2,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+EEAB_2025-7,BRATISLAVA,EEAB,2025-7,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+EEAB_2025-12,BRATISLAVA,EEAB,2025-12,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+EEAB_2025-5,BRATISLAVA,EEAB,2025-5,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+EEAB_2024-4,BRATISLAVAMICHALSKÁ BRÁNA,EEAB,2024-4,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+EEAB_2025-5,BRATISLAVA,EEAB,2025-5,Slovaquie,BRATISLAVA,Souvenirs art and craft from bratislava,"Ventúrska 266/7, 811 01 Bratislava, Slovaquie",,Boutique souvenirs,"Boutique ""souvenirs art and craft from bratislava""","4,90 €",28/12/2025,,48.142865,17.106293
+HUAH_2022-1,BUDAPEST,HUAH,2022-1,Hongrie,BUDAPEST,Memories of Hungary Váci utca Ajándékbolt,"Budapest, Váci u 14, 1052 Hungary",,Boutique souvenirs,"Chaine de boutique souvenirs, unique revendeurs sur Budapest","8,00 €",28/12/2025,,47.494617,19.052244
+UEJQ_2018-1,LES 9 ECLUSES DE FONSERANES,UEJQ,2018-1,France,BÉZIERS,Office de Tourisme Béziers Méditerranée,"Place du Forum, 34500 Béziers",,Office de Tourisme,,,,,43.342591,3.212763
+UEJQ_2018-1,LES 9 ECLUSES DE FONSERANES,UEJQ,2018-1,France,BÉZIERS,Office de Tourisme Béziers Méditerranée - Neuf Ecluses de Fonseranes,"Chem. des 9 Écluses, 34500 Béziers",,Office de Tourisme,,,,,43.329279,3.202017
+UEJT_2025-3,MUSÉUM DE TOULOUSE,UEJT,2025-3,France,TOULOUSE,Muséum de Toulouse,"35 All. Jules Guesde, 31000 Toulouse",,Boutique souvenirs,,,,,43.594015,1.449183
+XELS_2025-5,BERLIN - 2025,XELS,2025-5,Allemagne,BERLIN,Berlin Tourist Info - Berlin Hbf,"Europaplatz 1, 10557 Berlin, Germany",,Office de Tourisme,RDC / Entrée de la gare centrale de Berlin - Touriste info,"3,00 €",03/'01/2026,,52.52567,13.368487
+XEPH_2024-1,BERLIN - BRANDENBURGER TOR,XEPH,2024-1,Allemagne,BERLIN,Berlin Tourist Info - Berlin Hbf,"Europaplatz 1, 10557 Berlin, Germany",,Office de Tourisme,RDC / Entrée de la gare centrale de Berlin - Touriste info,"3,00 €",03/'01/2026,,52.52567,13.368487
+UEAA_2025-4,NOTRE-DAME-DE-LA-GARDE,UEAA,2025-4,France,MARSEILLE,Basilique Notre-Dame de la Garde,"Domaine Notre Dame de la Garde, Rue Fort du Sanctuaire, 13006 Marseille",Libre service,Monument,Boutique de la Basilique,"2,00 €",,,43.283298,5.37366
+UEAA_2025-5,NOTRE-DAME-DE-LA-GARDE,UEAA,2025-5,France,MARSEILLE,Basilique Notre-Dame de la Garde,"Domaine Notre Dame de la Garde, Rue Fort du Sanctuaire, 13006 Marseille",Libre service,Monument,Boutique de la Basilique,"2,00 €",,,43.283298,5.37366
+UENR_2024-1,MUCEM - FORT SAINT-JEAN,UENR,2024-1,France,MARSEILLE,Mucem - Musée des civilisations de l’Europe et de la Méditerranée,"1 Esp. J4, 13002 Marseille",Libre service,Musée,Boutique du musée,"2,00 €",,,43.296423,5.369639
+UEGM_2023-2,MAISON DE LA MAGIE ROBERT-HOUDIN,UEGM,2023-2,France,BLOIS,Emaux de Blois,"3 Rue de la Voûte du Château, 41000 Blois",,Boutique souvenirs,,,,,47.586212,1.332049
+UEAX_2025-6,GLADIATOR,UEAX,2025-6,France,NÎMES,Arènes de Nîmes,"Bd des Arènes, 30000 Nîmes",,Monument,Boutique du musée,,,,43.834806,4.358602
+UEHY_2025-1,CHÂTEAU COMTAL DE CARCASSONNE,UEHY,2025-1,France,CARCASSONNE,Cité de Carcassonne,,Libre service,Monument,,,,,,
+UEKQ_2024-1,CHÂTEAU DE PEYREPERTUSE,UEKQ,2024-1,France,DUILHAC-SOUS-PEYREPERTUSE,,,,,Boutique de la cité,,,,,
+UEYW_2025-1,CHÂTEAU DE PAU,,,,PAU,La maison d’Henry IV,"2 Rue du Château, 64000 Pau",Libre service,Boutique souvenirs,,,,,,
+UEGH_2025-1,DOMAINE NATIONAL DU CHÂTEAU D'ANGERS,UEGH,2025-1,France,ANGERS,,,,,,,,,,
+GBAZ_2023-2,TOWER BRIDGE,GBAZ,2023-2,Royaume‑Uni,LONDON,Tower Bridge - Engine Rooms and Official Gift Shop,"Tower Bridge Rd, London SE1 2UP, Royaume-Uni",Libre service,Boutique souvenirs,,,,,,
+UELD_2024-1,TRAIN DE L'ARDÈCHE,UELD,2024-1,France,TOURNON SAINT-JEAN,Train de l'Ardèche,"111 Rte du Grand Pont, 07300 Saint-Jean-de-Muzols",Libre service,Boutique souvenirs,,,,,,
+UEEL_2024-2,PALAIS DES ROIS DE MAJORQUE ,UEEL,2024-2,France,PERPIGNAN,,,,,,,,,,
+UEZE_2022-1,AIL FUMÉ D'ARLEUX,UEZE,2022-1,France,DOUAI,Office du Tourisme Douai,"1 Pl. d'Armes, 59500 Douai",,,,,,,,
+UEEU_2025-12,AQUARIUM BIARRITZ,,2025-12,France,BIARRITZ,,,,,,,,,,
+UEEU_2025-13,AQUARIUM BIARRITZ,UEEU,2025-13,France,BIARRITZ,,,,,,,,,,
+UESS_2024-1,CATHÉDRALE DE BAYONNE,UESS,2024-1,France,BAYONNE,,,,,,,,,,
+UEBK_2025-11,NAUSICAÀ,UEBK,2025-11,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,,
+UEBK_2025-10,NAUSICAÀ,UEBK,2025-10,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,,
+UEHZ_2025-3,HONFLEUR,,,,HONFLEUR,Tabac Presse des Logettes,"5 Rue des Logettes, 14600 Honfleur",,,,,,,,
+UENF_2023-1,VILLA CAVROIS,UENF,2023-1,France,CROIX,Villa Cavrois,"60 Av. du Président John Fitzgerald Kennedy, 59170 Croix",,Boutique souvenirs,Boutique du musée,,,,,
+UEBF_2022-3,ABBAYE DU MONT-SAINT-MICHEL,UEBF,2022-3,France,MONT-SAINT-MICHEL,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,,,,,,
+UERZ_2025_1,PHARES D'IROISE - BRETAGNE,,,,,,,,,,,,,,
+UEAJ_2024-7,CHÂTEAU ROYAL DE BLOIS,UEAJ,2024-7,France,BLOIS,Château Château royal de Blois,"Pl. du Château, 41000 Blois",,Monument,,,,,,
+UEAR_2023-3,CHÂTEAU DE CHAMBORD,UEAR,2023-3,France,CHAMBORD,Château de Chambord,"Le Château, 41250 Chambord",,Boutique souvenirs,Boutique du château,,,,,
+UEEK_2022-3,CHÂTEAU DE CHEVERNY,UEEK,2022-3,France,CHEVERNY,Château de Cheverny,"Av. du Château, 41700 Cheverny",,Boutique souvenirs,Boutique du château,,,,,
+UEGB_2023-1,CHÂTEAU DE VINCENNES,UEGB,2023-1,France,VINCENNES,Château de Vincennes,"Av. de Paris, 94300 Vincennes",,Boutique souvenirs,Boutique du château,,,,,
+UEVD_2021-1,PARIS - PLACE VENDOME,UEVD,2021-1,France,BRUSSELS,,,,,,,,,,
+PARI_2025-3,CATHÉDRALE NOTRE-DAME DE PARIS,PARI,2025-3,France,PARIS,,,,,,,,,,
+UEMD_2025-6,VIOLLET-LE-DUC & NOTRE-DAME DE PARIS,,,,,,,,,,,,,,
+ZEAZ_2024-1,BRUSSELS,ZEAZ,2024-1,Belgique,BRUSSELS,,,,,,,,,,
+ZEAS_2018-1,BASILICA KOEKELBERG - BRUSSELS,ZEAS,2018-1,Belgique,BRUXELLES,,,,,,,,,,
+ZEAN_2022-1,HISTORIC CENTER OF BRUGES,ZEAN,2022-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
+ZEAQ_2022-2,BELGIAN BEERS - UNESCO WORLD HERITAGE,ZEAQ,2022-2,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
+ZEAV_2019-1,FAMOUS HILLS OF FLANDERS - OUDE KWAREMONT,ZEAV,2019-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
+ZEAE_2021-1,ZEILSCHIP MERCATOR - OOSTENDE,,,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
+SEFF_2024-3,MILANO,SEFF,2024-3,Italie,MILANO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
+SEFF_2025-1,VENEZIA,SEFF,2025-1,Italie,VENEZIA,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
+SEDP_2025-2,LAGO DI COMO,SEDP,2025-2,Italie,COMO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
+SEFF_2024-6,ITALIA,SEFF,2024-6,Italie,--,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
+MXXA_2021-1,MEXICO,,,,,,,,,,,,,,
