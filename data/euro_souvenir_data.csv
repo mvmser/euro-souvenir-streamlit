@@ -58,38 +58,38 @@ UEAA_2025-5,NOTRE-DAME-DE-LA-GARDE,UEAA,2025-5,France,MARSEILLE,Basilique Notre-
 UENR_2024-1,MUCEM - FORT SAINT-JEAN,UENR,2024-1,France,MARSEILLE,Mucem - Musée des civilisations de l’Europe et de la Méditerranée,"1 Esp. J4, 13002 Marseille",Libre service,Musée,Boutique du musée,"2,00 €",,,43.296423,5.369639
 UEGM_2023-2,MAISON DE LA MAGIE ROBERT-HOUDIN,UEGM,2023-2,France,BLOIS,Emaux de Blois,"3 Rue de la Voûte du Château, 41000 Blois",,Boutique souvenirs,,,,,47.586212,1.332049
 UEAX_2025-6,GLADIATOR,UEAX,2025-6,France,NÎMES,Arènes de Nîmes,"Bd des Arènes, 30000 Nîmes",,Monument,Boutique du musée,,,,43.834806,4.358602
-UEHY_2025-1,CHÂTEAU COMTAL DE CARCASSONNE,UEHY,2025-1,France,CARCASSONNE,Cité de Carcassonne,,Libre service,Monument,,,,,,
-UEKQ_2024-1,CHÂTEAU DE PEYREPERTUSE,UEKQ,2024-1,France,DUILHAC-SOUS-PEYREPERTUSE,,,,,Boutique de la cité,,,,,
-UEYW_2025-1,CHÂTEAU DE PAU,,,,PAU,La maison d’Henry IV,"2 Rue du Château, 64000 Pau",Libre service,Boutique souvenirs,,,,,,
-UEGH_2025-1,DOMAINE NATIONAL DU CHÂTEAU D'ANGERS,UEGH,2025-1,France,ANGERS,,,,,,,,,,
-GBAZ_2023-2,TOWER BRIDGE,GBAZ,2023-2,Royaume‑Uni,LONDON,Tower Bridge - Engine Rooms and Official Gift Shop,"Tower Bridge Rd, London SE1 2UP, Royaume-Uni",Libre service,Boutique souvenirs,,,,,,
-UELD_2024-1,TRAIN DE L'ARDÈCHE,UELD,2024-1,France,TOURNON SAINT-JEAN,Train de l'Ardèche,"111 Rte du Grand Pont, 07300 Saint-Jean-de-Muzols",Libre service,Boutique souvenirs,,,,,,
-UEEL_2024-2,PALAIS DES ROIS DE MAJORQUE ,UEEL,2024-2,France,PERPIGNAN,,,,,,,,,,
-UEZE_2022-1,AIL FUMÉ D'ARLEUX,UEZE,2022-1,France,DOUAI,Office du Tourisme Douai,"1 Pl. d'Armes, 59500 Douai",,,,,,,,
-UEEU_2025-12,AQUARIUM BIARRITZ,,2025-12,France,BIARRITZ,,,,,,,,,,
-UEEU_2025-13,AQUARIUM BIARRITZ,UEEU,2025-13,France,BIARRITZ,,,,,,,,,,
-UESS_2024-1,CATHÉDRALE DE BAYONNE,UESS,2024-1,France,BAYONNE,,,,,,,,,,
-UEBK_2025-11,NAUSICAÀ,UEBK,2025-11,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,,
-UEBK_2025-10,NAUSICAÀ,UEBK,2025-10,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,,
-UEHZ_2025-3,HONFLEUR,,,,HONFLEUR,Tabac Presse des Logettes,"5 Rue des Logettes, 14600 Honfleur",,,,,,,,
-UENF_2023-1,VILLA CAVROIS,UENF,2023-1,France,CROIX,Villa Cavrois,"60 Av. du Président John Fitzgerald Kennedy, 59170 Croix",,Boutique souvenirs,Boutique du musée,,,,,
-UEBF_2022-3,ABBAYE DU MONT-SAINT-MICHEL,UEBF,2022-3,France,MONT-SAINT-MICHEL,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,,,,,,
+UEHY_2025-1,CHÂTEAU COMTAL DE CARCASSONNE,UEHY,2025-1,France,CARCASSONNE,Cité de Carcassonne,,Libre service,Monument,,,,,43.2063289,2.3640453
+UEKQ_2024-1,CHÂTEAU DE PEYREPERTUSE,UEKQ,2024-1,France,DUILHAC-SOUS-PEYREPERTUSE,,,,,Boutique de la cité,,,,42.8633,2.56704
+UEYW_2025-1,CHÂTEAU DE PAU,,,,PAU,La maison d’Henry IV,"2 Rue du Château, 64000 Pau",Libre service,Boutique souvenirs,,,,,3.9800463,18.7228948
+UEGH_2025-1,DOMAINE NATIONAL DU CHÂTEAU D'ANGERS,UEGH,2025-1,France,ANGERS,,,,,,,,,47.4739884,-0.5515588
+GBAZ_2023-2,TOWER BRIDGE,GBAZ,2023-2,Royaume‑Uni,LONDON,Tower Bridge - Engine Rooms and Official Gift Shop,"Tower Bridge Rd, London SE1 2UP, Royaume-Uni",Libre service,Boutique souvenirs,,,,,51.5074456,-0.1277653
+UELD_2024-1,TRAIN DE L'ARDÈCHE,UELD,2024-1,France,TOURNON SAINT-JEAN,Train de l'Ardèche,"111 Rte du Grand Pont, 07300 Saint-Jean-de-Muzols",Libre service,Boutique souvenirs,,,,,45.068208,4.7893289
+UEEL_2024-2,PALAIS DES ROIS DE MAJORQUE ,UEEL,2024-2,France,PERPIGNAN,,,,,,,,,42.6985304,2.8953121
+UEZE_2022-1,AIL FUMÉ D'ARLEUX,UEZE,2022-1,France,DOUAI,Office du Tourisme Douai,"1 Pl. d'Armes, 59500 Douai",,,,,,,50.3678889,3.0817218
+UEEU_2025-12,AQUARIUM BIARRITZ,,2025-12,France,BIARRITZ,,,,,,,,,43.4711438,-1.5527266
+UEEU_2025-13,AQUARIUM BIARRITZ,UEEU,2025-13,France,BIARRITZ,,,,,,,,,43.4711438,-1.5527266
+UESS_2024-1,CATHÉDRALE DE BAYONNE,UESS,2024-1,France,BAYONNE,,,,,,,,,43.4945144,-1.4736657
+UEBK_2025-11,NAUSICAÀ,UEBK,2025-11,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,50.7292489,1.5975611
+UEBK_2025-10,NAUSICAÀ,UEBK,2025-10,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,50.7292489,1.5975611
+UEHZ_2025-3,HONFLEUR,,,,HONFLEUR,Tabac Presse des Logettes,"5 Rue des Logettes, 14600 Honfleur",,,,,,,-29.3326448,-49.7206098
+UENF_2023-1,VILLA CAVROIS,UENF,2023-1,France,CROIX,Villa Cavrois,"60 Av. du Président John Fitzgerald Kennedy, 59170 Croix",,Boutique souvenirs,Boutique du musée,,,,48.7285521,1.3872902
+UEBF_2022-3,ABBAYE DU MONT-SAINT-MICHEL,UEBF,2022-3,France,MONT-SAINT-MICHEL,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,,,,,48.6351748,-1.5104816
 UERZ_2025_1,PHARES D'IROISE - BRETAGNE,,,,,,,,,,,,,,
-UEAJ_2024-7,CHÂTEAU ROYAL DE BLOIS,UEAJ,2024-7,France,BLOIS,Château Château royal de Blois,"Pl. du Château, 41000 Blois",,Monument,,,,,,
-UEAR_2023-3,CHÂTEAU DE CHAMBORD,UEAR,2023-3,France,CHAMBORD,Château de Chambord,"Le Château, 41250 Chambord",,Boutique souvenirs,Boutique du château,,,,,
-UEEK_2022-3,CHÂTEAU DE CHEVERNY,UEEK,2022-3,France,CHEVERNY,Château de Cheverny,"Av. du Château, 41700 Cheverny",,Boutique souvenirs,Boutique du château,,,,,
-UEGB_2023-1,CHÂTEAU DE VINCENNES,UEGB,2023-1,France,VINCENNES,Château de Vincennes,"Av. de Paris, 94300 Vincennes",,Boutique souvenirs,Boutique du château,,,,,
-UEVD_2021-1,PARIS - PLACE VENDOME,UEVD,2021-1,France,BRUSSELS,,,,,,,,,,
-PARI_2025-3,CATHÉDRALE NOTRE-DAME DE PARIS,PARI,2025-3,France,PARIS,,,,,,,,,,
+UEAJ_2024-7,CHÂTEAU ROYAL DE BLOIS,UEAJ,2024-7,France,BLOIS,Château Château royal de Blois,"Pl. du Château, 41000 Blois",,Monument,,,,,47.5859897,1.3320075
+UEAR_2023-3,CHÂTEAU DE CHAMBORD,UEAR,2023-3,France,CHAMBORD,Château de Chambord,"Le Château, 41250 Chambord",,Boutique souvenirs,Boutique du château,,,,47.6159257,1.515064
+UEEK_2022-3,CHÂTEAU DE CHEVERNY,UEEK,2022-3,France,CHEVERNY,Château de Cheverny,"Av. du Château, 41700 Cheverny",,Boutique souvenirs,Boutique du château,,,,47.5025684,1.4589468
+UEGB_2023-1,CHÂTEAU DE VINCENNES,UEGB,2023-1,France,VINCENNES,Château de Vincennes,"Av. de Paris, 94300 Vincennes",,Boutique souvenirs,Boutique du château,,,,48.8448695,2.4351684
+UEVD_2021-1,PARIS - PLACE VENDOME,UEVD,2021-1,France,BRUSSELS,,,,,,,,,50.8467799,4.3680302
+PARI_2025-3,CATHÉDRALE NOTRE-DAME DE PARIS,PARI,2025-3,France,PARIS,,,,,,,,,48.8534951,2.3483915
 UEMD_2025-6,VIOLLET-LE-DUC & NOTRE-DAME DE PARIS,,,,,,,,,,,,,,
-ZEAZ_2024-1,BRUSSELS,ZEAZ,2024-1,Belgique,BRUSSELS,,,,,,,,,,
-ZEAS_2018-1,BASILICA KOEKELBERG - BRUSSELS,ZEAS,2018-1,Belgique,BRUXELLES,,,,,,,,,,
-ZEAN_2022-1,HISTORIC CENTER OF BRUGES,ZEAN,2022-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
-ZEAQ_2022-2,BELGIAN BEERS - UNESCO WORLD HERITAGE,ZEAQ,2022-2,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
-ZEAV_2019-1,FAMOUS HILLS OF FLANDERS - OUDE KWAREMONT,ZEAV,2019-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
-ZEAE_2021-1,ZEILSCHIP MERCATOR - OOSTENDE,,,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,,
-SEFF_2024-3,MILANO,SEFF,2024-3,Italie,MILANO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
-SEFF_2025-1,VENEZIA,SEFF,2025-1,Italie,VENEZIA,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
-SEDP_2025-2,LAGO DI COMO,SEDP,2025-2,Italie,COMO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
-SEFF_2024-6,ITALIA,SEFF,2024-6,Italie,--,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,,
+ZEAZ_2024-1,BRUSSELS,ZEAZ,2024-1,Belgique,BRUSSELS,,,,,,,,,50.8465573,4.351697
+ZEAS_2018-1,BASILICA KOEKELBERG - BRUSSELS,ZEAS,2018-1,Belgique,BRUXELLES,,,,,,,,,50.8465573,4.351697
+ZEAN_2022-1,HISTORIC CENTER OF BRUGES,ZEAN,2022-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,51.2085526,3.226772
+ZEAQ_2022-2,BELGIAN BEERS - UNESCO WORLD HERITAGE,ZEAQ,2022-2,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,51.2085526,3.226772
+ZEAV_2019-1,FAMOUS HILLS OF FLANDERS - OUDE KWAREMONT,ZEAV,2019-1,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,51.2085526,3.226772
+ZEAE_2021-1,ZEILSCHIP MERCATOR - OOSTENDE,,,Belgique,BRUGES,Belfort Souvenirs en Tabak,"Breidelstraat 5, 8000 Brugge, Belgique",Libre service,Boutique souvenirs,,,,,51.2085526,3.226772
+SEFF_2024-3,MILANO,SEFF,2024-3,Italie,MILANO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,45.4641943,9.1896346
+SEFF_2025-1,VENEZIA,SEFF,2025-1,Italie,VENEZIA,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,45.4371908,12.3345898
+SEDP_2025-2,LAGO DI COMO,SEDP,2025-2,Italie,COMO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,45.9394759,9.1494101
+SEFF_2024-6,ITALIA,SEFF,2024-6,Italie,--,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,42.6384261,12.674297
 MXXA_2021-1,MEXICO,,,,,,,,,,,,,,
