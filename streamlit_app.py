@@ -123,27 +123,5 @@ if len(df_display) > 0:
         st.markdown("🟠 **Office de Tourisme**")
     with col4:
         st.markdown("🟣 **Boutique**")
-    
-    # Tableau des données
-    st.markdown("### Liste des lieux")
-    display_columns = ['TITRE', 'VILLE', 'LIEU', 'ADRESSE', 'TYPE DE LIEU', 'Mode de vente', 'PRIX INDICATIF (€)']
-    st.dataframe(
-        df_display[display_columns],
-        use_container_width=True,
-        hide_index=True
-    )
 else:
     st.warning("Aucun lieu avec coordonnées GPS pour cette sélection")
-
-# Afficher les lieux sans coordonnées
-st.markdown("---")
-st.markdown("### Lieux sans coordonnées GPS (à compléter)")
-df_without_coords = df[df['LATITUDE'].isna() | df['LONGITUDE'].isna()]
-if len(df_without_coords) > 0:
-    st.info(f"Il y a {len(df_without_coords)} lieux sans coordonnées GPS")
-    display_columns_no_coords = ['TITRE', 'PAYS', 'VILLE', 'LIEU', 'ADRESSE']
-    st.dataframe(
-        df_without_coords[display_columns_no_coords],
-        use_container_width=True,
-        hide_index=True
-    )
