@@ -79,7 +79,7 @@ def geocode_address(geolocator, pays, ville, lieu, adresse):
 
 def main():
     # Fichier CSV
-    csv_file = 'data/euro_souvenir_data.csv'
+    csv_file = 'data/shop.csv'
     
     print("=" * 80)
     print("GÉOCODAGE DES ADRESSES MANQUANTES")

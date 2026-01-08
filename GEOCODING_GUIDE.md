@@ -21,7 +21,7 @@ python geocode_missing.py
 ### Étape 2 : Suivre les instructions
 
 Le script va :
-1. Analyser le fichier `data/euro_souvenir_data.csv`
+1. Analyser le fichier `data/shop.csv`
 2. Identifier les lignes sans coordonnées (LATITUDE/LONGITUDE vides)
 3. Afficher le nombre de lignes à géocoder
 4. Demander confirmation avant de commencer
@@ -44,7 +44,7 @@ Il s'arrête dès qu'une correspondance est trouvée.
 
 ## 💾 Sécurité
 
-- **Sauvegarde automatique** : L'original est sauvegardé dans `euro_souvenir_data_backup.csv`
+- **Sauvegarde automatique** : L'original est sauvegardé dans `shop_backup.csv`
 - **Modifications sélectives** : Seules les lignes **sans coordonnées** sont modifiées
 - **Les coordonnées existantes ne sont jamais écrasées**
 
@@ -55,7 +55,7 @@ Il s'arrête dès qu'une correspondance est trouvée.
 GÉOCODAGE DES ADRESSES MANQUANTES
 ================================================================================
 
-📂 Chargement de data/euro_souvenir_data.csv...
+📂 Chargement de data/shop.csv...
 
 📊 Statistiques:
    - Total de lignes: 95
@@ -88,8 +88,8 @@ RÉSUMÉ
 ✓ Géocodées avec succès: 42
 ✗ Échecs: 3
 
-💾 Sauvegarde de l'original vers: data/euro_souvenir_data_backup.csv
-💾 Mise à jour du fichier: data/euro_souvenir_data.csv
+💾 Sauvegarde de l'original vers: data/shop_backup.csv
+💾 Mise à jour du fichier: data/shop.csv
 
 ✓ Terminé! Le fichier CSV a été mis à jour.
 ```
