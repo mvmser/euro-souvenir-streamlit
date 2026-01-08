@@ -60,7 +60,7 @@ UEGM_2023-2,MAISON DE LA MAGIE ROBERT-HOUDIN,UEGM,2023-2,France,BLOIS,Emaux de B
 UEAX_2025-6,GLADIATOR,UEAX,2025-6,France,NÎMES,Arènes de Nîmes,"Bd des Arènes, 30000 Nîmes",,Monument,Boutique du musée,,,,43.834806,4.358602
 UEHY_2025-1,CHÂTEAU COMTAL DE CARCASSONNE,UEHY,2025-1,France,CARCASSONNE,Cité de Carcassonne,,Libre service,Monument,,,,,43.2063289,2.3640453
 UEKQ_2024-1,CHÂTEAU DE PEYREPERTUSE,UEKQ,2024-1,France,DUILHAC-SOUS-PEYREPERTUSE,,,,,Boutique de la cité,,,,42.8633,2.56704
-UEYW_2025-1,CHÂTEAU DE PAU,,,,PAU,La maison d’Henry IV,"2 Rue du Château, 64000 Pau",Libre service,Boutique souvenirs,,,,,3.9800463,18.7228948
+UEYW_2025-1,CHÂTEAU DE PAU,,,,PAU,La maison d’Henry IV,"2 Rue du Château, 64000 Pau",Libre service,Boutique souvenirs,,,,,43.2947758,-0.3745614
 UEGH_2025-1,DOMAINE NATIONAL DU CHÂTEAU D'ANGERS,UEGH,2025-1,France,ANGERS,,,,,,,,,47.4739884,-0.5515588
 GBAZ_2023-2,TOWER BRIDGE,GBAZ,2023-2,Royaume‑Uni,LONDON,Tower Bridge - Engine Rooms and Official Gift Shop,"Tower Bridge Rd, London SE1 2UP, Royaume-Uni",Libre service,Boutique souvenirs,,,,,51.5074456,-0.1277653
 UELD_2024-1,TRAIN DE L'ARDÈCHE,UELD,2024-1,France,TOURNON SAINT-JEAN,Train de l'Ardèche,"111 Rte du Grand Pont, 07300 Saint-Jean-de-Muzols",Libre service,Boutique souvenirs,,,,,45.068208,4.7893289
@@ -71,7 +71,7 @@ UEEU_2025-13,AQUARIUM BIARRITZ,UEEU,2025-13,France,BIARRITZ,,,,,,,,,43.4711438,-
 UESS_2024-1,CATHÉDRALE DE BAYONNE,UESS,2024-1,France,BAYONNE,,,,,,,,,43.4945144,-1.4736657
 UEBK_2025-11,NAUSICAÀ,UEBK,2025-11,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,50.7292489,1.5975611
 UEBK_2025-10,NAUSICAÀ,UEBK,2025-10,France,BOULOGNE SUR MER,Nausicaá Centre National De La Mer,"Bd Sainte-Beuve, 62200 Boulogne-sur-Mer",Distributeur CB,Musée,Distributeurs avant la boutique,,,,50.7292489,1.5975611
-UEHZ_2025-3,HONFLEUR,,,,HONFLEUR,Tabac Presse des Logettes,"5 Rue des Logettes, 14600 Honfleur",,,,,,,-29.3326448,-49.7206098
+UEHZ_2025-3,HONFLEUR,,,,HONFLEUR,Tabac Presse des Logettes,"5 Rue des Logettes, 14600 Honfleur",,,,,,,49.42118,0.233205
 UENF_2023-1,VILLA CAVROIS,UENF,2023-1,France,CROIX,Villa Cavrois,"60 Av. du Président John Fitzgerald Kennedy, 59170 Croix",,Boutique souvenirs,Boutique du musée,,,,48.7285521,1.3872902
 UEBF_2022-3,ABBAYE DU MONT-SAINT-MICHEL,UEBF,2022-3,France,MONT-SAINT-MICHEL,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,,,,,48.6351748,-1.5104816
 UERZ_2025_1,PHARES D'IROISE - BRETAGNE,,,,,,,,,,,,,,
@@ -93,3 +93,4 @@ SEFF_2025-1,VENEZIA,SEFF,2025-1,Italie,VENEZIA,Tabacchi e Souvenirs,"Piazza Cami
 SEDP_2025-2,LAGO DI COMO,SEDP,2025-2,Italie,COMO,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,45.9394759,9.1494101
 SEFF_2024-6,ITALIA,SEFF,2024-6,Italie,--,Tabacchi e Souvenirs,"Piazza Camillo Benso Conte di Cavour, 29, 22100 Como CO, Italie",,Bureau tabac,,,,,42.6384261,12.674297
 MXXA_2021-1,MEXICO,,,,,,,,,,,,,,
+UEBU_2025-6,TOUR EIFFEL,UEBU,2025-6,France,PARIS,Tour Eiffel,Av Gustave Tour Eiffel,Caisse,Monument,RDC,2,08/01/2026,https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/495566908_1304168371715540_1731116413868324346_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=omeWkrAVnI0Q7kNvwEltS8h&_nc_oc=AdkGN__ODyrksXE13UVTEPNmvhGQHb4BSIqqdCGe6oMIvDMbmurfRtTfNPUIYqO0kmMLdUdkl6mV3DlTK0dXEUHE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=qoLXEXQ__6n4EN0do5u3fw&oh=00_AfqxTuDBHjGdh-813-nQp2rU-rychMbN-Mu41kbZY2y0_Q&oe=6964E777,48.8582599,2.2945006

@@ -150,7 +150,10 @@ with col1:
     st.metric("Lieux affichés", len(df_display))
 with col2:
     st.metric("Pays", df_display['PAYS'].nunique())
-st.metric("Villes", df_display['VILLE'].nunique())
+
+col3, col4 = st.sidebar.columns(2)
+with col3:
+    st.metric("Villes", df_display['VILLE'].nunique())
 
 # Bouton pour ajouter un lieu
 st.sidebar.markdown("---")
@@ -234,71 +237,95 @@ if st.session_state.page == 'ajouter':
         st.session_state.temp_adresse = ''
     
     with st.form("add_location_form"):
-        col1, col2 = st.columns(2)
+        # Centrer le contenu avec des marges plus larges
+        col_spacer1, col_content, col_spacer2 = st.columns([1, 8, 1])
         
-        with col1:
-            st.subheader("📍 Localisation")
+        with col_content:
+            # Titre du billet en premier (hors de la section localisation)
+            st.markdown("#### 🎫 Billet")
             
-            # Toujours afficher les champs grisés avec message si vides
             if st.session_state.billet_info:
                 titre = st.text_input("Titre *", value=st.session_state.billet_info['TITLE'], disabled=True)
-                code = st.text_input("Code", value=code_input, disabled=True)
-                milesime = st.text_input("Millésime", value=milesime_input, disabled=True)
-                pays = st.text_input("Pays *", value=st.session_state.billet_info['COUNTRY'], disabled=True)
-                ville = st.text_input("Ville *", value=st.session_state.billet_info['CITY'], disabled=True)
+                col_code, col_milesime = st.columns(2)
+                with col_code:
+                    code = st.text_input("Code", value=code_input, disabled=True)
+                with col_milesime:
+                    milesime = st.text_input("Millésime", value=milesime_input, disabled=True)
             else:
                 titre = st.text_input("Titre *", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
-                code = st.text_input("Code", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
-                milesime = st.text_input("Millésime", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
-                pays = st.text_input("Pays *", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
-                ville = st.text_input("Ville *", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
+                col_code, col_milesime = st.columns(2)
+                with col_code:
+                    code = st.text_input("Code", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
+                with col_milesime:
+                    milesime = st.text_input("Millésime", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
             
-            lieu = st.text_input("Lieu *", placeholder="Ex: Tour Eiffel", key="form_lieu")
-            adresse = st.text_area("Adresse *", placeholder="Ex: Av. Gustave Eiffel, 75007 Paris", key="form_adresse")
+            st.markdown("---")
             
-        with col2:
-            st.subheader("ℹ️ Détails du lieu")
+            # Sections en colonnes
+            col1, col2 = st.columns(2)
             
-            # Mode de vente - liste déroulante des valeurs existantes
-            modes_vente = [''] + sorted(df['Mode de vente'].dropna().unique().tolist())
-            mode_vente = st.selectbox("Mode de vente", modes_vente)
+            with col1:
+                st.subheader("📍 Localisation")
+                
+                # Seulement les champs de localisation
+                if st.session_state.billet_info:
+                    pays = st.text_input("Pays *", value=st.session_state.billet_info['COUNTRY'], disabled=True)
+                    ville = st.text_input("Ville *", value=st.session_state.billet_info['CITY'], disabled=True)
+                else:
+                    pays = st.text_input("Pays *", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
+                    ville = st.text_input("Ville *", value="", disabled=True, help="⚠️ Remplissez d'abord la section 1️⃣ ci-dessus")
+                
+                lieu = st.text_input("Lieu *", placeholder="Ex: Tour Eiffel", key="form_lieu")
+                adresse = st.text_area("Adresse *", placeholder="Ex: Av. Gustave Eiffel, 75007 Paris", key="form_adresse")
+                
+            with col2:
+                st.subheader("ℹ️ Détails du lieu")
+                
+                # Mode de vente - liste déroulante des valeurs existantes
+                modes_vente = [''] + sorted(df['Mode de vente'].dropna().unique().tolist())
+                mode_vente = st.selectbox("Mode de vente", modes_vente)
+                
+                # Type de lieu - liste déroulante des valeurs existantes
+                types_lieu = [''] + sorted(df['TYPE DE LIEU'].dropna().unique().tolist())
+                type_lieu = st.selectbox("Type de lieu", types_lieu)
+                
+                commentaire = st.text_area("Commentaire", placeholder="Informations supplémentaires...")
+                prix = st.text_input("Prix indicatif (€)", placeholder="Ex: 2,00 €")
+                
+                image = st.text_input("🖼️ URL Image du lieu", placeholder="https://exemple.com/image.jpg")
+                
+                st.subheader("📍 Coordonnées GPS")
+                
+                # Afficher le message de géocodage s'il existe
+                if st.session_state.geocode_message:
+                    if "✅" in st.session_state.geocode_message:
+                        st.success(st.session_state.geocode_message)
+                    else:
+                        st.error(st.session_state.geocode_message)
+                
+                # Champs de coordonnées (peuvent être remplis manuellement ou par géocodage)
+                col_lat, col_lon = st.columns(2)
+                with col_lat:
+                    if st.session_state.geocoded_lat:
+                        st.text_input("Latitude", value=st.session_state.geocoded_lat, disabled=True)
+                    else:
+                        latitude_input = st.text_input("Latitude", placeholder="Ex: 48.857298", key="form_latitude")
+                with col_lon:
+                    if st.session_state.geocoded_lon:
+                        st.text_input("Longitude", value=st.session_state.geocoded_lon, disabled=True)
+                    else:
+                        longitude_input = st.text_input("Longitude", placeholder="Ex: 2.302035", key="form_longitude")
             
-            # Type de lieu - liste déroulante des valeurs existantes
-            types_lieu = [''] + sorted(df['TYPE DE LIEU'].dropna().unique().tolist())
-            type_lieu = st.selectbox("Type de lieu", types_lieu)
+            st.markdown("---")
+            col_submit, col_geo, col_cancel = st.columns([2, 2, 1])
             
-            commentaire = st.text_area("Commentaire", placeholder="Informations supplémentaires...")
-            prix = st.text_input("Prix indicatif (€)", placeholder="Ex: 2,00 €")
+            with col_geo:
+                geocode_btn = st.form_submit_button("🌍 Ajouter coordonnées GPS", use_container_width=True)
             
-            image = st.text_input("🖼️ URL Image du lieu", placeholder="https://exemple.com/image.jpg")
-            
-            # Champs de coordonnées (peuvent être remplis manuellement ou par géocodage)
-            col_lat, col_lon = st.columns(2)
-            with col_lat:
-                latitude_input = st.text_input(
-                    "Latitude", 
-                    value=st.session_state.geocoded_lat if st.session_state.geocoded_lat else "",
-                    placeholder="Ex: 48.857298",
-                    key="form_latitude"
-                )
-            with col_lon:
-                longitude_input = st.text_input(
-                    "Longitude", 
-                    value=st.session_state.geocoded_lon if st.session_state.geocoded_lon else "",
-                    placeholder="Ex: 2.302035",
-                    key="form_longitude"
-                )
-        
-        st.markdown("---")
-        col_submit, col_geo, col_cancel = st.columns([2, 2, 1])
-        
-        with col_geo:
-            geocode_btn = st.form_submit_button("🌍 Ajouter coordonnées GPS", width="stretch")
-        
-        with col_submit:
-            submitted = st.form_submit_button("💾 Enregistrer", type="primary", width="stretch")
-        with col_cancel:
-            cancelled = st.form_submit_button("❌ Annuler", width="stretch")
+            with col_submit:
+                submitted = st.form_submit_button("💾 Enregistrer", type="primary", use_container_width=True)
+            with col_cancel:
+                cancelled = st.form_submit_button("❌ Annuler", use_container_width=True)
         
         # Géocodage si le bouton est cliqué
         if geocode_btn:
@@ -315,8 +342,10 @@ if st.session_state.page == 'ajouter':
         
         if submitted:
             # Validation
-            if not titre or not pays or not ville or not lieu or not adresse:
-                st.error("⚠️ Les champs Titre, Pays, Ville, Lieu et Adresse sont obligatoires!")
+            if not st.session_state.billet_info:
+                st.error("⚠️ Veuillez d'abord identifier votre billet dans la section 1️⃣ ci-dessus!")
+            elif not lieu or not adresse:
+                st.error("⚠️ Les champs Lieu et Adresse sont obligatoires!")
             else:
                 # Créer une nouvelle ligne
                 date_ajout = datetime.now().strftime("%d/%m/%Y")
@@ -352,8 +381,8 @@ if st.session_state.page == 'ajouter':
                     'PRIX INDICATIF (€)': prix if prix else '',
                     'DATE': date_ajout,
                     'IMAGE': image if image else '',
-                    'LATITUDE': float(latitude_input) if latitude_input else None,
-                    'LONGITUDE': float(longitude_input) if longitude_input else None
+                    'LATITUDE': float(st.session_state.geocoded_lat) if st.session_state.geocoded_lat else (float(latitude_input) if 'latitude_input' in locals() and latitude_input else None),
+                    'LONGITUDE': float(st.session_state.geocoded_lon) if st.session_state.geocoded_lon else (float(longitude_input) if 'longitude_input' in locals() and longitude_input else None)
                 }
                 
                 # Ajouter la nouvelle ligne au DataFrame
@@ -388,8 +417,12 @@ if st.session_state.page == 'ajouter':
 
 # PAGE CARTE (par défaut)
 elif st.session_state.page == 'carte':
-    st.title("💶 Carte des Billets 0 Euro Souvenirs")
-    st.markdown("Découvrez où acheter vos billets souvenirs de 0 euros à travers l'Europe")
+    # Centrer le contenu de la page
+    col_spacer1, col_content, col_spacer2 = st.columns([1, 8, 1])
+    
+    with col_content:
+        st.title("💶 Carte des Billets 0 Euro Souvenirs")
+        st.markdown("Découvrez où acheter vos billets souvenirs de 0 euros à travers l'Europe")
 
 # Créer la carte
 if len(df_display) > 0:
@@ -458,19 +491,25 @@ if len(df_display) > 0:
             icon=folium.Icon(color=icon_color, icon='info-sign')
         ).add_to(m)
     
-    # Afficher la carte
-    st_folium(m, width=None, height=600)
+    # Centrer la carte et la légende
+    col_spacer1, col_content, col_spacer2 = st.columns([1, 8, 1])
     
-    # Légende des couleurs
-    st.markdown("### Légende")
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.markdown("🔴 **Monument**")
-    with col2:
-        st.markdown("🟢 **Musée**")
-    with col3:
-        st.markdown("🟠 **Office de Tourisme**")
-    with col4:
-        st.markdown("🟣 **Boutique**")
+    with col_content:
+        # Afficher la carte
+        st_folium(m, width=None, height=600)
+        
+        # Légende des couleurs
+        st.markdown("### Légende")
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            st.markdown("🔴 **Monument**")
+        with col2:
+            st.markdown("🟢 **Musée**")
+        with col3:
+            st.markdown("🟠 **Office de Tourisme**")
+        with col4:
+            st.markdown("🟣 **Boutique**")
 else:
-    st.warning("Aucun lieu avec coordonnées GPS pour cette sélection")
+    col_spacer1, col_content, col_spacer2 = st.columns([1, 8, 1])
+    with col_content:
+        st.warning("Aucun lieu avec coordonnées GPS pour cette sélection")
