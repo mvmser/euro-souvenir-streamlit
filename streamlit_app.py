@@ -182,7 +182,7 @@ if st.session_state.page == 'ajouter':
         - 🔵 **Souligné en bleu** = CODE (4 lettres)
         - 🟢 **Souligné en vert** = MILLÉSIME (année-numéro)
         """)
-        st.image('data/guide.jpg', caption='Où trouver le CODE et le MILLÉSIME', use_container_width=True)
+        st.image('data/guide.jpg', caption='Où trouver le CODE et le MILLÉSIME', width=600)
     
     # Initialiser les variables de session pour stocker les infos du billet
     if 'billet_info' not in st.session_state:
